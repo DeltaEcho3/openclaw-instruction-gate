@@ -1,0 +1,31 @@
+{
+  "registry_version": 1,
+  "generated_at": "2026-09-29T00:00:00Z",
+  "prompts": {
+    "AGENT.ESCALATION": {
+      "current": 1,
+      "versions": {
+        "1": {"summary": "Escalate to a human when an action exceeds your authority.", "status": "active"}
+      }
+    },
+    "AGENT.WORK_PATTERN": {
+      "current": 1,
+      "versions": {
+        "1": {"summary": "Standard work pattern: plan, act, verify, report.", "status": "active"}
+      }
+    },
+    "TASK.DRIFT_SWEEP": {
+      "current": 2,
+      "versions": {
+        "1": {"summary": "Weekly configuration drift sweep (original wording).", "status": "superseded"},
+        "2": {"summary": "Weekly configuration drift sweep.", "status": "active"}
+      }
+    },
+    "TASK.OLD_EXPORT": {
+      "current": 1,
+      "versions": {
+        "1": {"summary": "Retired export task.", "status": "revoked", "revoked": true}
+      }
+    }
+  }
+}

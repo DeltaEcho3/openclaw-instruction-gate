@@ -1,0 +1,6 @@
+{
+  "id": "instruction-gate",
+  "name": "Instruction gate",
+  "activation": { "onStartup": true },
+  "configSchema": { "type": "object", "additionalProperties": false }
+}

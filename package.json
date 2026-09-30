@@ -1,0 +1,9 @@
+{
+  "name": "openclaw-instruction-gate",
+  "version": "0.1.0",
+  "description": "Default-deny before_tool_call gate for OpenClaw: every non-read-only tool call must cite a version-pinned, manifest-verified instruction reference.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "scripts": { "test": "node partA.mjs" },
+  "openclaw": { "extensions": ["./index.ts"] }
+}
